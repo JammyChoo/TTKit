@@ -1,7 +1,6 @@
 G:\Jamie TewTTKit\Jamie TewTTKit\bin\Debug\Jamie TewTTKit.exe.config
 G:\Jamie TewTTKit\Jamie TewTTKit\bin\Debug\Jamie TewTTKit.exe
 G:\Jamie TewTTKit\Jamie TewTTKit\bin\Debug\Jamie TewTTKit.pdb
-G:\Jamie TewTTKit\Jamie TewTTKit\obj\Debug\Jamie TewTTKit.csprojAssemblyReference.cache
 G:\Jamie TewTTKit\Jamie TewTTKit\obj\Debug\Jamie_TewTTKit.Properties.Resources.resources
 G:\Jamie TewTTKit\Jamie TewTTKit\obj\Debug\Jamie TewTTKit.csproj.GenerateResource.cache
 G:\Jamie TewTTKit\Jamie TewTTKit\obj\Debug\Jamie TewTTKit.csproj.CoreCompileInputs.cache
@@ -14,3 +13,4 @@ G:\Jamie TewTTKit\Jamie TewTTKit\obj\Debug\Jamie_TewTTKit.DiceRoll.resources
 G:\Jamie TewTTKit\Jamie TewTTKit\obj\Debug\Jamie_TewTTKit.Countdown.resources
 G:\Jamie TewTTKit\Jamie TewTTKit\obj\Debug\Jamie_TewTTKit.Interval.resources
 G:\Jamie TewTTKit\Jamie TewTTKit\obj\Debug\Jamie_TewTTKit.Form7.resources
+G:\Jamie TewTTKit\Jamie TewTTKit\obj\Debug\Jamie TewTTKit.csprojAssemblyReference.cache

@@ -28,12 +28,14 @@ namespace Jamie_TewTTKit
         private void timer1_Tick(object sender, EventArgs e)
         {
             countDown -= timer1.Interval * 0.001f;
-            textBox1.Text = countDown.ToString("0.00");
+            richTextBox1.Text = countDown.ToString("0.00");
             if (countDown < 0)
             {
                 timer1.Enabled = false;
+                button1.Show();
+                button3.Hide();
+                richTextBox1.BackColor = Color.FromArgb(255, 0, 0);
             }
-
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -50,13 +52,19 @@ namespace Jamie_TewTTKit
 
         private void button1_Click(object sender, EventArgs e)
         {
-            countDown = float.Parse(textBox1.Text);
+            countDown = float.Parse(richTextBox1.Text);
             timer1.Enabled = true;
             button3.Show();
             button1.Hide();
+            richTextBox1.BackColor = Color.FromArgb(142, 255, 203);
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void richTextBox1_TextChanged(object sender, EventArgs e)
         {
 
         }

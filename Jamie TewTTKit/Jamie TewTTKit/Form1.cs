@@ -94,15 +94,20 @@ namespace Jamie_TewTTKit
             if (ballY4 < 0 || ballY4 + 25 > pictureBox1.Height) { yv4 *= -1; }
             Refresh();
             // could probably more efficient than this
+
+            label3.Text = DateTime.Now.ToString("HH:mm:ss");
         }
 
 Pen blackPen = new Pen(Color.Black, 1);
+Pen orangePen = new Pen(Color.Orange, 1);
+Pen tealPen = new Pen(Color.Teal, 1);
+Pen bluePen = new Pen(Color.Blue, 1);
         private void pictureBox1_Paint(object sender, PaintEventArgs e)
         {
             e.Graphics.DrawEllipse(blackPen, ballX, ballY, 25, 25);
-            e.Graphics.DrawEllipse(blackPen, ballX2, ballY2, 25, 25);
-            e.Graphics.DrawEllipse(blackPen, ballX3, ballY3, 25, 25);
-            e.Graphics.DrawEllipse(blackPen, ballX4, ballY4, 25, 25);
+            e.Graphics.DrawEllipse(orangePen, ballX2, ballY2, 25, 25);
+            e.Graphics.DrawEllipse(tealPen, ballX3, ballY3, 25, 25);
+            e.Graphics.DrawEllipse(bluePen, ballX4, ballY4, 25, 25);
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -120,6 +125,16 @@ Pen blackPen = new Pen(Color.Black, 1);
         private void button7_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
