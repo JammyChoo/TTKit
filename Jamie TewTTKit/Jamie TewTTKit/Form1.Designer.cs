@@ -151,7 +151,7 @@
             // button6
             // 
             this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(255)))), ((int)(((byte)(170)))));
-            this.button6.Location = new System.Drawing.Point(233, 161);
+            this.button6.Location = new System.Drawing.Point(453, 161);
             this.button6.Margin = new System.Windows.Forms.Padding(4);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(189, 40);
@@ -178,9 +178,9 @@
             this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
             this.label3.Location = new System.Drawing.Point(265, 4);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(56, 16);
+            this.label3.Size = new System.Drawing.Size(40, 16);
             this.label3.TabIndex = 10;
-            this.label3.Text = "label3";
+            this.label3.Text = "Time";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // MainMenu
@@ -188,7 +188,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            this.ClientSize = new System.Drawing.Size(435, 214);
+            this.ClientSize = new System.Drawing.Size(438, 214);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.button6);
